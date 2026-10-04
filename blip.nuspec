@@ -8,7 +8,7 @@
     <owners>paradonym</owners>
     <projectUrl>https://blip.net/</projectUrl>
     <licenseUrl>https://blip.net/terms-of-service</licenseUrl>
-    <packageSourceUrl>https://github.com/paradonym/blip-chocolatey</PackageSourceUrl>
+    <packageSourceUrl>https://github.com/paradonym/blip-chocolatey</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.jsdelivr.net/gh/paradonym/blip-chocolatey@main/icons/blip.svg</iconUrl>
     <copyright>2026 Blip Studio Inc.</copyright>
