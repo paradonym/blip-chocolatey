@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>blip</id>
+    <version>1.0.0</version>
+    <title>Blip: Send Files in a Click</title>
+    <authors>Blip Studio Inc.</authors>
+    <owners>paradonym</owners>
+    <projectUrl>https://blip.net/</projectUrl>
+    <licenseUrl>https://blip.net/terms-of-service</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://store-images.s-microsoft.com/image/apps.14067.14068186488847955.52d98a9f-9bdf-400b-ac16-428f73d933b2.6f21a5ed-5c72-421f-9969-55b0953f894d</iconUrl>
+    <copyright>2026 Blip Studio Inc.</copyright>
+    <summary>Send files and folders of any size directly to other devices and people, fast and end-to-end encrypted.</summary>
+    <description>
+Blip is a cross-platform app for sending files and folders of any size directly to your other devices or to other people, without uploading them to a cloud service first. Transfers are end-to-end encrypted and resume after network interruptions.
+
+This package installs Blip (Microsoft Store product ID `9N7JSXC1SJK6`) using `winget` from the `msstore` source. The package does not contain the app itself, and updates are managed by the Microsoft Store.
+
+## Requirements
+
+* Windows 10 version 1809 (build 17763) or later, or Windows 11
+* `winget` (App Installer), provided via the `winget` package dependency
+* Access to the Microsoft Store (the install runs in the context of a signed-in user, not as SYSTEM)
+
+## Notes
+
+* Blip is proprietary software. It is free for non-commercial use; commercial use requires a paid plan (see https://blip.net/pricing).
+* If Blip is already installed, the package install completes without changes. Uninstalling the package also removes the app.
+    </description>
+    <releaseNotes>Initial version of the package. Installs the current Microsoft Store version of Blip via winget.</releaseNotes>
+    <tags>blip file-transfer file-sharing freeware winget msstore</tags>
+    <dependencies>
+      <dependency id="winget" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
