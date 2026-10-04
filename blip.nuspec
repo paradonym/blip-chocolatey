@@ -8,8 +8,9 @@
     <owners>paradonym</owners>
     <projectUrl>https://blip.net/</projectUrl>
     <licenseUrl>https://blip.net/terms-of-service</licenseUrl>
+    <packageSourceUrl>https://github.com/paradonym/blip-chocolatey</PackageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://store-images.s-microsoft.com/image/apps.14067.14068186488847955.52d98a9f-9bdf-400b-ac16-428f73d933b2.6f21a5ed-5c72-421f-9969-55b0953f894d</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/paradonym/blip-chocolatey@main/icons/blip.svg</iconUrl>
     <copyright>2026 Blip Studio Inc.</copyright>
     <summary>Send files and folders of any size directly to other devices and people, fast and end-to-end encrypted.</summary>
     <description>
